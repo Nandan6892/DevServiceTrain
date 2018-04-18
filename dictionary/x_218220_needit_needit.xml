@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="NeedIt" max_length="40" name="x_218220_needit_needit" type="collection"/>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_218220_needit_needit" type="collection">
+        <element label="Closed Notes Description" max_length="40" name="new_field_2" type="integer"/>
+        <element choice="1" label="Reuested Type" max_length="4000" name="reuested_type" type="glide_list">
+            <choice>
+                <element label="LEGAL" sequence="1" value="LEGAL"/>
+                <element label="ILLEGAL" sequence="2" value="ILLEGAL"/>
+                <element label="All" sequence="3" value="All"/>
+            </choice>
+        </element>
+        <element label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+    </element>
 </database>

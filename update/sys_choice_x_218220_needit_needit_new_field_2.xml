@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="new_field_2" table="x_218220_needit_needit" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>new_field_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Fiels 2</label>
+            <language>en</language>
+            <name>x_218220_needit_needit</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-18 11:52:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>750e6d29dba113000ee1d190cf96198d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-18 11:52:35</sys_updated_on>
+            <value>Integer</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>new_field_2</element>
+            <name>x_218220_needit_needit</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-18 11:52:02</sys_created_on>
+            <sys_id>985e6129dba113000ee1d190cf9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>new_field_2</sys_name>
+            <sys_package display_value="NeedIt" source="x_218220_needit">fb28a821db2113000ee1d190cf9619b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">fb28a821db2113000ee1d190cf9619b3</sys_scope>
+            <sys_update_name>sys_choice_x_218220_needit_needit_new_field_2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-18 11:52:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
